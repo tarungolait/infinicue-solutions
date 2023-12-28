@@ -59,7 +59,7 @@ window.addEventListener("scroll", function () {
 document.addEventListener("DOMContentLoaded", function() {
   setTimeout(function() {
       document.querySelector("body").classList.add("loaded");
-  }, 5000)
+  }, 4000)
 });
 
 // Enable smooth scrolling behavior
