@@ -52,6 +52,7 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
 /**
  * preloader
  */
@@ -60,3 +61,6 @@ document.addEventListener("DOMContentLoaded", function() {
       document.querySelector("body").classList.add("loaded");
   }, 3000)
 });
+
+// Enable smooth scrolling behavior
+document.documentElement.style.scrollBehavior = "smooth";

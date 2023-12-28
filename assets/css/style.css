@@ -130,6 +130,10 @@
 	background-color:hsl(0,0%,70%)
 	}
 	
+	html, body {
+		scroll-behavior: smooth;
+	  }
+	  
 	/*-----------------------------------*\
     #REUSED STYLE
     \*-----------------------------------*/
@@ -1407,3 +1411,5 @@
 	transform:rotate(360deg)
 	}
 	}
+
+	
