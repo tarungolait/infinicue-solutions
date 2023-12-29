@@ -104,7 +104,7 @@
 	
 	body {
 	background-color:var(--space-cadet);
-	color:var(--cadet-blue-crayola);
+	color:var(--white);
 	font-size:1.6rem;
 	line-height:1.6;
 	overflow-x:hidden
@@ -451,6 +451,7 @@
 	.solution-section .container {
 	max-width:800px;
 	margin:0 auto
+	
 	}
 	
 	.solutions {
@@ -475,6 +476,13 @@
 	.solutions .section-text {
 	margin-block-end:80px
 	}
+	.solutions,
+	.solutions .section-text {
+		color:var(--white);
+		font-size: 1.6rem;
+		line-height: 1.6;
+	}
+	
 	/*-----------------------------------*\
     #CONTACT
    \*-----------------------------------*/
